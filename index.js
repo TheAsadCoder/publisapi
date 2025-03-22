@@ -27,6 +27,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 100,
         imageUrl:
           "https://cdn.pixabay.com/photo/2017/09/26/13/31/apple-2788616_640.jpg",
+        description: "A sweet, crisp fruit perfect for snacking or baking.",
       },
       {
         id: 2,
@@ -36,6 +37,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 150,
         imageUrl:
           "https://cdn.pixabay.com/photo/2021/10/18/09/50/fruit-6720597_640.jpg",
+        description: "A soft, creamy fruit that's great for smoothies and snacks.",
       },
       {
         id: 3,
@@ -45,6 +47,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 200,
         imageUrl:
           "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_640.jpg",
+        description: "A juicy, tangy fruit rich in vitamin C.",
       },
       {
         id: 4,
@@ -54,6 +57,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 80,
         imageUrl:
           "https://cdn.pixabay.com/photo/2022/05/27/10/35/strawberry-7224875_640.jpg",
+        description: "A sweet, red berry perfect for desserts and salads.",
       },
       {
         id: 5,
@@ -63,6 +67,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 120,
         imageUrl:
           "https://cdn.pixabay.com/photo/2016/08/17/09/57/fruit-bowl-1600003_640.jpg",
+        description: "Small, juicy fruits that are great for snacking and making wine.",
       },
       {
         id: 6,
@@ -72,6 +77,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 60,
         imageUrl:
           "https://cdn.pixabay.com/photo/2019/05/27/15/18/umbrella-4232928_640.jpg",
+        description: "A tropical fruit with a sweet and tangy flavor.",
       },
       {
         id: 7,
@@ -81,6 +87,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 200,
         imageUrl:
           "https://cdn.pixabay.com/photo/2020/05/15/00/11/mango-5171747_640.jpg",
+        description: "A juicy, sweet fruit that's perfect for smoothies and desserts.",
       },
       {
         id: 8,
@@ -90,6 +97,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 250,
         imageUrl:
           "https://cdn.pixabay.com/photo/2020/05/21/18/15/watermelon-5201959_640.jpg",
+        description: "A refreshing, hydrating fruit perfect for hot summer days.",
       },
       {
         id: 9,
@@ -99,6 +107,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 300,
         imageUrl:
           "https://cdn.pixabay.com/photo/2021/09/08/05/36/fruit-6605641_640.jpg",
+        description: "Small, sweet berries that are great for baking and snacking.",
       },
       {
         id: 10,
@@ -108,6 +117,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 100,
         imageUrl:
           "https://cdn.pixabay.com/photo/2017/07/21/22/11/apricots-2527193_1280.jpg",
+        description: "A juicy, sweet fruit with a soft, fuzzy skin.",
       },
       {
         id: 11,
@@ -117,6 +127,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 400,
         imageUrl:
           "https://cdn.pixabay.com/photo/2018/06/15/23/27/cherries-3477927_640.jpg",
+        description: "Small, sweet fruits that are perfect for snacking and baking.",
       },
       {
         id: 12,
@@ -126,6 +137,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 350,
         imageUrl:
           "https://cdn.pixabay.com/photo/2021/10/17/16/44/kiwi-6718889_640.jpg",
+        description: "A small, tangy fruit with a fuzzy skin and green flesh.",
       },
       {
         id: 13,
@@ -135,6 +147,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 500,
         imageUrl:
           "https://cdn.pixabay.com/photo/2023/01/27/13/12/papaya-7748668_1280.jpg",
+        description: "A tropical fruit with a sweet, musky flavor.",
       },
       {
         id: 14,
@@ -144,6 +157,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 50,
         imageUrl:
           "https://cdn.pixabay.com/photo/2022/07/02/17/29/cherry-plum-7297682_640.jpg",
+        description: "A juicy, sweet fruit with a smooth skin and a pit inside.",
       },
       {
         id: 15,
@@ -153,6 +167,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 150,
         imageUrl:
           "https://cdn.pixabay.com/photo/2018/07/05/23/12/pear-3519397_640.jpg",
+        description: "A sweet, juicy fruit with a smooth skin and a grainy texture.",
       },
       {
         id: 16,
@@ -162,6 +177,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 80,
         imageUrl:
           "https://cdn.pixabay.com/photo/2022/10/03/08/09/pomegranate-7495289_640.jpg",
+        description: "A fruit with a tough outer skin and juicy, seed-filled interior.",
       },
       {
         id: 17,
@@ -171,6 +187,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 600,
         imageUrl:
           "https://cdn.pixabay.com/photo/2015/01/23/18/20/lemon-squeezer-609273_640.jpg",
+        description: "A tangy, acidic fruit perfect for adding flavor to dishes.",
       },
       {
         id: 18,
@@ -180,6 +197,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 90,
         imageUrl:
           "https://cdn.pixabay.com/photo/2016/07/06/20/56/coconut-1501334_1280.jpg",
+        description: "A tropical fruit with a hard shell and sweet, creamy flesh.",
       },
       {
         id: 19,
@@ -189,6 +207,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 70,
         imageUrl:
           "https://cdn.pixabay.com/photo/2024/01/09/22/11/avocado-8498520_1280.jpg",
+        description: "A creamy, nutrient-rich fruit perfect for salads and spreads.",
       },
       {
         id: 20,
@@ -198,6 +217,7 @@ app.use("/api/food/fruits", (req, res) => {
         quantity: 300,
         imageUrl:
           "https://cdn.pixabay.com/photo/2022/01/26/03/20/fruits-6967739_1280.jpg",
+        description: "A tropical fruit with a sweet, musky flavor and a soft, grainy texture.",
       },
     ],
     message: "Fruit items retrieved successfully",

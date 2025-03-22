@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello</h1>
+  <div id="main"></div>
+
+  <img alt="" id="img" width="200px" height="200px">
+
+
+  <script>
+    const img = document.getElementById('img');
+    const main = document.getElementById('main');
+    const getData =  async () => {
+      const response = await fetch('https://asad.up.railway.app/api/food/fruits');
+      const res = await response.json();
+      console.log(res.data);
+      img.ATTRIBUTE_NODE = res.data[0].image;
+      main.innerHTML = res.data.map((item) => {
+        return `
+          <div class="card">
+            <h2>${item.name}</h2>
+            <p>${item.description}</p>
+            <img src="${item.imageUrl}" alt="${item.name}">
+          </div>
+        `;
+      }).join('');
+    }
+
+    getData();
+
+  </script>
+</body>
+</html>
